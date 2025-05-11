@@ -1,0 +1,14 @@
+{
+  "upsampled": {
+    "model_path": "outputs/upsampled_model/fog_cnn_model_streamed.h5",
+    "val_dir": "data/gaf_upsampled/valid"
+  },
+  "downsampled": {
+    "model_path": "outputs/downsampled_model/fog_cnn_model.h5",
+    "val_dir": "data/gaf_downsampled/valid"
+  },
+  "hybrid": {
+    "model_path": "outputs/hybrid_model/fog_cnn_model.h5",
+    "val_dir": "data/gaf_hybrid/valid"
+  }
+}
