@@ -4,7 +4,7 @@ This repository contains a complete pipeline for detecting Freezing of Gait (FOG
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 - **Sliding Window Segmentation** of raw accelerometer signals
 - **Gramian Angular Field (GAF) Conversion** of time-series windows
@@ -14,7 +14,7 @@ This repository contains a complete pipeline for detecting Freezing of Gait (FOG
 
 ---
 
-## 🔧 Setup
+##  Setup
 
 ### 1. Clone and Install
 ```bash
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧩 Pipeline Stages
+##  Pipeline Stages
 
 ### 1. Sliding Window Segmentation
 ```bash
@@ -60,7 +60,7 @@ python preprocessing/slidingWindowGAFImages_Hybrid.py --input_dir data/gaf --out
 
 ---
 
-## 🧠 CNN Model Training
+##  CNN Model Training
 
 ### For GAF Images (downsampled or hybrid):
 ```bash
@@ -101,7 +101,7 @@ python evaluation/CNNModelEvaluation.py --config_file eval_config.json --output_
 
 ---
 
-## ✅ Output Includes
+##  Output Includes
 
 - `classification_report.txt`
 - `confusion_matrix.npy` + plotted heatmap
@@ -111,7 +111,7 @@ python evaluation/CNNModelEvaluation.py --config_file eval_config.json --output_
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Genelle Jenkins**  
 M.S. Biomedical Informatics & Data Science  
